@@ -34,7 +34,7 @@
   const view = new MapView({
     map: map,
     center: [-50.384628, 43.075723], //Longitude, latitude
-    zoom: 3,
+    zoom: 4,
     container: "viewDiv"
  });
 
@@ -83,45 +83,6 @@
  });
  graphicsLayer.add(polylineGraphic);
 
-//  // Create a polygon geometry
-//  const polygon = {
-//     type: "polygon",
-//     rings: [
-//         [-118.818984489994, 34.0137559967283], //Longitude, latitude
-//         [-118.806796597377, 34.0215816298725], //Longitude, latitude
-//         [-118.791432890735, 34.0163883241613], //Longitude, latitude
-//         [-118.79596686535, 34.008564864635],   //Longitude, latitude
-//         [-118.808558110679, 34.0035027131376]  //Longitude, latitude
-//     ]
-//  };
-
-//  const simpleFillSymbol = {
-//     type: "simple-fill",
-//     color: [227, 139, 79, 0.8],  // Orange, opacity 80%
-//     outline: {
-//         color: [255, 255, 255],
-//         width: 1
-//     }
-//  };
-
-//  const popupTemplate = {
-//     title: "{Name}",
-//     content: "{Description}"
-//  }
-//  const attributes = {
-//     Name: "Graphic",
-//     Description: "I am a polygon"
-//  }
-
-//  const polygonGraphic = new Graphic({
-//     geometry: polygon,
-//     symbol: simpleFillSymbol,
-
-//     attributes: attributes,
-//     popupTemplate: popupTemplate
-
-//  });
-//  graphicsLayer.add(polygonGraphic);
 
 });
 </script>
